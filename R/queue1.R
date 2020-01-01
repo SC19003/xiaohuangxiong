@@ -1,8 +1,8 @@
 #' @title Use three inputs to predict response using R.
 #' @description The prediction model is described in http://www.babelgraph.org/wp/?p=358.
-#' @param lambda the first predictor (numeric)
-#' @param mu the second predictor (logical)
-#' @param T the third predictor (logical)
+#' @param lambda the successive arrival intervals of customers to the system are independent and subject to an exponential distribution with a parameter of $\lambda$. (numeric)
+#' @param mu The service time of the service desk is also iid., and obeys the exponential distribution of parameter $\mu$. (numeric)
+#' @param T the third predictor (numeric)
 #' @return  the length Ls, the average stay time Ws and the probability of customer waiting Pwait.
 #' @examples
 #' \dontrun{
