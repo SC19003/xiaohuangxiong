@@ -2,7 +2,7 @@
 % Please edit documentation in R/queue2.R
 \name{queue2}
 \alias{queue2}
-\title{Use four inputs to predict response using R.}
+\title{Calculate the main quantitative metric describing the queuing system in the queuing service system.}
 \usage{
 queue2(lambda, mu, T, S)
 }
