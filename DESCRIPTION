@@ -1,0 +1,15 @@
+Package: SC19003
+Type: Package
+Title: queueing problem
+Version: 1.0
+Date: 2020-01-01
+Author: 19003
+Maintainer: Your Name <3219851710@qq.com>
+Description: Calculate the main quantitative metric describing the queuing system in the queuing service system.
+License: GPL (>= 2)
+Imports: Rcpp (>= 1.0.3)
+LinkingTo: Rcpp
+RoxygenNote: 7.0.2
+Suggests: knitr, rmarkdown
+VignetteBuilder: knitr
+Encoding: UTF-8
